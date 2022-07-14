@@ -1,3 +1,77 @@
+/* main color #000000 */
+
+/* second color: rgba(0, 0, 0, 0.8); */
+
+/* White #FFFFFF; */
+
+/* accent  #18A0FB; */
+
+/* second background #F5F5F5; */
+
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primary-white-color: #ffffff;
+}
+
 body {
-  background-color: tomato;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* hero section  */
+.hero-title {
+  color: var(--title-text-color);
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+
+.benefits-list .title {
+  color: var(--title-text-color);
+}
+
+/* Examples works section  */
+.work-list .title {
+  color: var(--title-text-color);
+}
+
+/* button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.button.secondary {
+  background-color: var(--primary-white-color);
+  color: var(--accent-color);
 }
