@@ -18,28 +18,57 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
+  font-family: Montserrat, sans-serif;
+  letter-spacing: -0.015em;
+  font-size: 18px;
+  line-height: 1.67;
 }
 
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.section-description {
+  font-size: 36px;
+  line-height: 1.39;
 }
 
 /* hero section  */
 .hero-title {
   color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43;
+  text-align: center;
 }
 
 .logo {
   color: var(--title-text-color);
+  font-family: Comfortaa, cursive;
+  font-size: 28px;
+  line-height: 1.14;
+  text-decoration: none;
 }
 .logo:hover {
   color: var(--accent-color);
+  font-family: "Comfortaa";
 }
 
 /* site nav */
 
 .site-nav .link {
   color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 .site-nav .link.current {
   color: var(--accent-color);
@@ -50,13 +79,13 @@ body {
   color: var(--title-text-color);
 }
 
-.benefits-list .title {
-  color: var(--title-text-color);
-}
-
-/* Examples works section  */
+.benefits-list .title,
 .work-list .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 /* button */
@@ -64,6 +93,7 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
+  text-decoration: none;
 }
 
 .button.primary {
@@ -74,4 +104,8 @@ body {
 .button.secondary {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
 }
